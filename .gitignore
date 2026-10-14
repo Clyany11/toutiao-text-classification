@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+
+# macOS 压缩包残留
+__MACOSX/
+._*
+
+# 日志
+*.log
+
+# 训练产物 / 模型权重 (超过 GitHub 100MB 单文件限制, 请用 Git LFS 或单独分发)
+*.bin
+*.pt
+toutiao/srcsaved_dict/
+bert_distil/src/saved_dict/
+srcsaved_dict/
+saved_dict/
